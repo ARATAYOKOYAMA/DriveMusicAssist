@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF60089021102421006AB97E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60088F21102421006AB97E /* AppDelegate.swift */; };
+		DF60089221102421006AB97E /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60089121102421006AB97E /* ArtistViewController.swift */; };
+		DF60089521102421006AB97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF60089321102421006AB97E /* Main.storyboard */; };
+		DF60089721102429006AB97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF60089621102429006AB97E /* Assets.xcassets */; };
+		DF60089A21102429006AB97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF60089821102429006AB97E /* LaunchScreen.storyboard */; };
+		DF6008A521102429006AB97E /* DriveMusicAssistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6008A421102429006AB97E /* DriveMusicAssistTests.swift */; };
+		DF6008B021102429006AB97E /* DriveMusicAssistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6008AF21102429006AB97E /* DriveMusicAssistUITests.swift */; };
+		DF6008BF21102530006AB97E /* ArtistViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6008BE21102530006AB97E /* ArtistViewPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF6008A121102429006AB97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF60088421102421006AB97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF60088B21102421006AB97E;
+			remoteInfo = DriveMusicAssist;
+		};
+		DF6008AC21102429006AB97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF60088421102421006AB97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF60088B21102421006AB97E;
+			remoteInfo = DriveMusicAssist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF60088C21102421006AB97E /* DriveMusicAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveMusicAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF60088F21102421006AB97E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF60089121102421006AB97E /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		DF60089421102421006AB97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF60089621102429006AB97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF60089921102429006AB97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF60089B21102429006AB97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6008A021102429006AB97E /* DriveMusicAssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveMusicAssistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6008A421102429006AB97E /* DriveMusicAssistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveMusicAssistTests.swift; sourceTree = "<group>"; };
+		DF6008A621102429006AB97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6008AB21102429006AB97E /* DriveMusicAssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveMusicAssistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6008AF21102429006AB97E /* DriveMusicAssistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveMusicAssistUITests.swift; sourceTree = "<group>"; };
+		DF6008B121102429006AB97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6008BE21102530006AB97E /* ArtistViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF60088921102421006AB97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60089D21102429006AB97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6008A821102429006AB97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF60088321102421006AB97E = {
+			isa = PBXGroup;
+			children = (
+				DF60088E21102421006AB97E /* DriveMusicAssist */,
+				DF6008A321102429006AB97E /* DriveMusicAssistTests */,
+				DF6008AE21102429006AB97E /* DriveMusicAssistUITests */,
+				DF60088D21102421006AB97E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF60088D21102421006AB97E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF60088C21102421006AB97E /* DriveMusicAssist.app */,
+				DF6008A021102429006AB97E /* DriveMusicAssistTests.xctest */,
+				DF6008AB21102429006AB97E /* DriveMusicAssistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF60088E21102421006AB97E /* DriveMusicAssist */ = {
+			isa = PBXGroup;
+			children = (
+				DF6008BD2110243F006AB97E /* ArtistTable */,
+				DF60088F21102421006AB97E /* AppDelegate.swift */,
+				DF60089321102421006AB97E /* Main.storyboard */,
+				DF60089621102429006AB97E /* Assets.xcassets */,
+				DF60089821102429006AB97E /* LaunchScreen.storyboard */,
+				DF60089B21102429006AB97E /* Info.plist */,
+			);
+			path = DriveMusicAssist;
+			sourceTree = "<group>";
+		};
+		DF6008A321102429006AB97E /* DriveMusicAssistTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6008A421102429006AB97E /* DriveMusicAssistTests.swift */,
+				DF6008A621102429006AB97E /* Info.plist */,
+			);
+			path = DriveMusicAssistTests;
+			sourceTree = "<group>";
+		};
+		DF6008AE21102429006AB97E /* DriveMusicAssistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6008AF21102429006AB97E /* DriveMusicAssistUITests.swift */,
+				DF6008B121102429006AB97E /* Info.plist */,
+			);
+			path = DriveMusicAssistUITests;
+			sourceTree = "<group>";
+		};
+		DF6008BD2110243F006AB97E /* ArtistTable */ = {
+			isa = PBXGroup;
+			children = (
+				DF60089121102421006AB97E /* ArtistViewController.swift */,
+				DF6008BE21102530006AB97E /* ArtistViewPresenter.swift */,
+			);
+			path = ArtistTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF60088B21102421006AB97E /* DriveMusicAssist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6008B421102429006AB97E /* Build configuration list for PBXNativeTarget "DriveMusicAssist" */;
+			buildPhases = (
+				DF60088821102421006AB97E /* Sources */,
+				DF60088921102421006AB97E /* Frameworks */,
+				DF60088A21102421006AB97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveMusicAssist;
+			productName = DriveMusicAssist;
+			productReference = DF60088C21102421006AB97E /* DriveMusicAssist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF60089F21102429006AB97E /* DriveMusicAssistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6008B721102429006AB97E /* Build configuration list for PBXNativeTarget "DriveMusicAssistTests" */;
+			buildPhases = (
+				DF60089C21102429006AB97E /* Sources */,
+				DF60089D21102429006AB97E /* Frameworks */,
+				DF60089E21102429006AB97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6008A221102429006AB97E /* PBXTargetDependency */,
+			);
+			name = DriveMusicAssistTests;
+			productName = DriveMusicAssistTests;
+			productReference = DF6008A021102429006AB97E /* DriveMusicAssistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF6008AA21102429006AB97E /* DriveMusicAssistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6008BA21102429006AB97E /* Build configuration list for PBXNativeTarget "DriveMusicAssistUITests" */;
+			buildPhases = (
+				DF6008A721102429006AB97E /* Sources */,
+				DF6008A821102429006AB97E /* Frameworks */,
+				DF6008A921102429006AB97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6008AD21102429006AB97E /* PBXTargetDependency */,
+			);
+			name = DriveMusicAssistUITests;
+			productName = DriveMusicAssistUITests;
+			productReference = DF6008AB21102429006AB97E /* DriveMusicAssistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF60088421102421006AB97E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "横山　新";
+				TargetAttributes = {
+					DF60088B21102421006AB97E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DF60089F21102429006AB97E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DF60088B21102421006AB97E;
+					};
+					DF6008AA21102429006AB97E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DF60088B21102421006AB97E;
+					};
+				};
+			};
+			buildConfigurationList = DF60088721102421006AB97E /* Build configuration list for PBXProject "DriveMusicAssist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF60088321102421006AB97E;
+			productRefGroup = DF60088D21102421006AB97E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF60088B21102421006AB97E /* DriveMusicAssist */,
+				DF60089F21102429006AB97E /* DriveMusicAssistTests */,
+				DF6008AA21102429006AB97E /* DriveMusicAssistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF60088A21102421006AB97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60089A21102429006AB97E /* LaunchScreen.storyboard in Resources */,
+				DF60089721102429006AB97E /* Assets.xcassets in Resources */,
+				DF60089521102421006AB97E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60089E21102429006AB97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6008A921102429006AB97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF60088821102421006AB97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60089221102421006AB97E /* ArtistViewController.swift in Sources */,
+				DF60089021102421006AB97E /* AppDelegate.swift in Sources */,
+				DF6008BF21102530006AB97E /* ArtistViewPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60089C21102429006AB97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6008A521102429006AB97E /* DriveMusicAssistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6008A721102429006AB97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6008B021102429006AB97E /* DriveMusicAssistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6008A221102429006AB97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF60088B21102421006AB97E /* DriveMusicAssist */;
+			targetProxy = DF6008A121102429006AB97E /* PBXContainerItemProxy */;
+		};
+		DF6008AD21102429006AB97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF60088B21102421006AB97E /* DriveMusicAssist */;
+			targetProxy = DF6008AC21102429006AB97E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF60089321102421006AB97E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF60089421102421006AB97E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF60089821102429006AB97E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF60089921102429006AB97E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6008B221102429006AB97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF6008B321102429006AB97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF6008B521102429006AB97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634QW7RT8Y;
+				INFOPLIST_FILE = DriveMusicAssist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ARATA-YOKOYAMA.DriveMusicAssist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF6008B621102429006AB97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634QW7RT8Y;
+				INFOPLIST_FILE = DriveMusicAssist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ARATA-YOKOYAMA.DriveMusicAssist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF6008B821102429006AB97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634QW7RT8Y;
+				INFOPLIST_FILE = DriveMusicAssistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ARATA-YOKOYAMA.DriveMusicAssistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveMusicAssist.app/DriveMusicAssist";
+			};
+			name = Debug;
+		};
+		DF6008B921102429006AB97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634QW7RT8Y;
+				INFOPLIST_FILE = DriveMusicAssistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ARATA-YOKOYAMA.DriveMusicAssistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveMusicAssist.app/DriveMusicAssist";
+			};
+			name = Release;
+		};
+		DF6008BB21102429006AB97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634QW7RT8Y;
+				INFOPLIST_FILE = DriveMusicAssistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ARATA-YOKOYAMA.DriveMusicAssistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriveMusicAssist;
+			};
+			name = Debug;
+		};
+		DF6008BC21102429006AB97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634QW7RT8Y;
+				INFOPLIST_FILE = DriveMusicAssistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ARATA-YOKOYAMA.DriveMusicAssistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriveMusicAssist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF60088721102421006AB97E /* Build configuration list for PBXProject "DriveMusicAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6008B221102429006AB97E /* Debug */,
+				DF6008B321102429006AB97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6008B421102429006AB97E /* Build configuration list for PBXNativeTarget "DriveMusicAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6008B521102429006AB97E /* Debug */,
+				DF6008B621102429006AB97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6008B721102429006AB97E /* Build configuration list for PBXNativeTarget "DriveMusicAssistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6008B821102429006AB97E /* Debug */,
+				DF6008B921102429006AB97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6008BA21102429006AB97E /* Build configuration list for PBXNativeTarget "DriveMusicAssistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6008BB21102429006AB97E /* Debug */,
+				DF6008BC21102429006AB97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF60088421102421006AB97E /* Project object */;
+}
